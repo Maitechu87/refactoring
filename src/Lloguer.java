@@ -5,10 +5,9 @@ public class Lloguer {
     private int dies;
     private Vehicle vehicle;
 
-    public Lloguer(Date data, int dies, Vehicle vehicle){
+    public Lloguer(Date data, int dies){
         this.data = data;
         this.dies = dies;
-        this.vehicle = vehicle;
     }
 
     public Date getData()     { return data;     }

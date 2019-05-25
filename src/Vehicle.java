@@ -1,5 +1,3 @@
-import java.util.Vector;
-
 public class Vehicle {
     private String model;
     private String marca;
@@ -21,10 +19,6 @@ public class Vehicle {
     public String getModel()     { return model;     }
     public String getMarca()     { return marca;     }
     public Tipus getCategoria() { return categoria; }
-
-    public void setModel(String model) { this.model = model; }
-    public void setMarca(String marca) { this.marca = marca; }
-    public void setCategoria(Tipus categor) { this.categoria = categor;}
 
 
 }

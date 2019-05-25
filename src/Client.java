@@ -1,16 +1,17 @@
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class Client {
     private String nif;
     private String nom;
     private String telefon;
-    private Vector<Lloguer> lloguers;
+    private ArrayList<Lloguer> lloguers;
 
     public Client(String nif, String nom, String telefon) {
         this.nif = nif;
         this.nom = nom;
         this.telefon = telefon;
-        this.lloguers = new Vector<Lloguer>();
+        this.lloguers = new ArrayList<>();
     }
 
     public String getNif()     { return nif;     }
@@ -19,9 +20,11 @@ public class Client {
 
     public void setNif(String nif) { this.nif = nif; }
     public void setNom(String nom) { this.nom = nom; }
-    public void setTelefon(String telefon) {
-        this.telefon = telefon;
-    }
+    public void setTelefon(String telefon) { this.telefon = telefon; }
+
+    public ArrayList<Lloguer> getLloguers(){ return lloguers;}
+
+
     public void afegeix(Lloguer lloguer) {
         if (! lloguers.contains(lloguer) ) {
             lloguers.add(lloguer);
