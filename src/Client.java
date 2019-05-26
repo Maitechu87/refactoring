@@ -43,10 +43,22 @@ public class Client {
                 composaPeu();
     }
 
+    public String informeHTML(){
+        return capseleraHtml()+
+                detallHtml()+
+                peuHtml();
+    }
+
     public String composaCapsalera(){
         String capselera = "Informe de lloguers del client " +
                 getNom() +
                 " (" + getNif() + ")\n";
+        return capselera;
+    }
+
+    public String capseleraHtml(){
+        String capselera = "<h1>Informe de lloguers</h1>\n<p>Informe de lloguers del client<em> " +
+                getNom() +"</em>(<strong>" + getNif() + "</strong>)</p>\n";
         return capselera;
     }
 
@@ -63,10 +75,31 @@ public class Client {
         return detall;
     }
 
+    public String detallHtml(){
+        String detall = "<table>\n<tr><td><strong>Marca</strong></td><td><strong>"+
+                "Model</strong></td><td><strong>Import</strong></td></tr>\n";
+        for (Lloguer lloguer: lloguers) {
+            detall += "\t<tr><td>" +
+                    lloguer.getVehicle().getMarca() +
+                    "</td><td> " +
+                    lloguer.getVehicle().getModel() + "</td><td>" +
+                    (lloguer.preu() * EUROS_PER_UNITAT_DE_COST) + "€ </td></tr>\n";
+        }
+        detall +="</table>\n";
+        return detall;
+    }
+
     public String composaPeu(){
         String resultat = "Import a pagar: ";
         resultat += importTotal() + "€\n" +
                 "Punts guanyats: " + bonificacionsTotals() + "\n";
+        return resultat;
+    }
+
+    public String peuHtml(){
+        String resultat = "<p>Import a pagar: <em>";
+        resultat += importTotal() + "€</em></p>\n" +
+                "<p>Punts guanyats: <em>" + bonificacionsTotals() + "</em></p>\n";
         return resultat;
     }
 
@@ -86,4 +119,6 @@ public class Client {
         }
         return bonificacions;
     }
+
+
 }

@@ -113,6 +113,24 @@ public class ClientTest {
     }
 
     @Test
+    public void informeHtml () {
+
+        String informe = client2.informeHTML();
+
+        String informeEsperado = "<h1>Informe de lloguers</h1>\n"+
+                                    "<p>Informe de lloguers del client<em> Eric</em>(<strong>46985471</strong>)</p>\n"+
+                                    "<table>\n"+
+                                    "<tr><td><strong>Marca</strong></td><td><strong>Model</strong></td><td><strong>Import</strong></td></tr>\n"+
+                                        "\t<tr><td>Audi</td><td> A3</td><td>270.0€ </td></tr>\n"+
+                                    "</table>\n"+
+                                    "<p>Import a pagar: <em>270.0€</em></p>\n"+
+                                    "<p>Punts guanyats: <em>1</em></p>\n";
+
+        Assert.assertEquals(informeEsperado, informe);
+
+    }
+
+    @Test
     public void informeLloguerBasic () {
 
         String informe = clloguerBasic.informe();
@@ -121,6 +139,24 @@ public class ClientTest {
                 "\tCitroen Saxo: 90.0€\n" +
                 "Import a pagar: 90.0€\n" +
                 "Punts guanyats: 1\n";
+
+        Assert.assertEquals(informeEsperado, informe);
+
+    }
+
+    @Test
+    public void informeLloguerBasicHTML () {
+
+        String informe = clloguerBasic.informeHTML();
+
+        String informeEsperado = "<h1>Informe de lloguers</h1>\n"+
+                    "<p>Informe de lloguers del client<em> Alex</em>(<strong>46985471</strong>)</p>\n"+
+                    "<table>\n"+
+                    "<tr><td><strong>Marca</strong></td><td><strong>Model</strong></td><td><strong>Import</strong></td></tr>\n"+
+                    "\t<tr><td>Citroen</td><td> Saxo</td><td>90.0€ </td></tr>\n"+
+                    "</table>\n"+
+                    "<p>Import a pagar: <em>90.0€</em></p>\n"+
+                    "<p>Punts guanyats: <em>1</em></p>\n";
 
         Assert.assertEquals(informeEsperado, informe);
 
@@ -140,6 +176,22 @@ public class ClientTest {
     }
 
     @Test
+    public void informeSinAlquilerHTML () {
+
+        String informe = senseLloguer.informeHTML();
+
+        String informeEsperado = "<h1>Informe de lloguers</h1>\n"+
+                "<p>Informe de lloguers del client<em> Martina</em>(<strong>47852587G</strong>)</p>\n"+
+                "<table>\n"+
+                "<tr><td><strong>Marca</strong></td><td><strong>Model</strong></td><td><strong>Import</strong></td></tr>\n"+
+                "</table>\n<p>Import a pagar: <em>0.0€</em></p>\n"+
+                "<p>Punts guanyats: <em>0</em></p>\n";
+
+        Assert.assertEquals(informeEsperado, informe);
+
+    }
+
+    @Test
     public void informeLloguerLuxe () {
 
         String informe = cLlogLuxe.informe();
@@ -148,6 +200,24 @@ public class ClientTest {
                 "\tLamborgini Diablo: 5400.0€\n" +
                 "Import a pagar: 5400.0€\n" +
                 "Punts guanyats: 2\n";
+
+        Assert.assertEquals(informeEsperado, informe);
+
+    }
+
+    @Test
+    public void informeLloguerLuxeHTML () {
+
+        String informe = cLlogLuxe.informeHTML();
+
+        String informeEsperado = "<h1>Informe de lloguers</h1>\n"+
+                "<p>Informe de lloguers del client<em> Maite</em>(<strong>46985471</strong>)</p>\n"+
+                "<table>\n"+
+                "<tr><td><strong>Marca</strong></td><td><strong>Model</strong></td><td><strong>Import</strong></td></tr>\n"+
+                "\t<tr><td>Lamborgini</td><td> Diablo</td><td>5400.0€ </td></tr>\n"+
+                "</table>\n"+
+                "<p>Import a pagar: <em>5400.0€</em></p>\n"+
+                "<p>Punts guanyats: <em>2</em></p>\n";
 
         Assert.assertEquals(informeEsperado, informe);
 
@@ -169,6 +239,25 @@ public class ClientTest {
     }
 
     @Test
+    public void informeMuchosAlquHTML () {
+
+        String informe = muchosAlquileres.informeHTML();
+
+        String informeEsperado = "<h1>Informe de lloguers</h1>\n"+
+                "<p>Informe de lloguers del client<em> Maite</em>(<strong>46985471</strong>)</p>\n"+
+                "<table>\n"+
+                "<tr><td><strong>Marca</strong></td><td><strong>Model</strong></td><td><strong>Import</strong></td></tr>\n"+
+                "\t<tr><td>Lamborgini</td><td> Diablo</td><td>2700.0€ </td></tr>\n"+
+                "\t<tr><td>Audi</td><td> A4</td><td>120.0€ </td></tr>\n"+
+                "</table>\n"+
+                "<p>Import a pagar: <em>2820.0€</em></p>\n"+
+                "<p>Punts guanyats: <em>3</em></p>\n";
+
+        Assert.assertEquals(informeEsperado, informe);
+
+    }
+
+    @Test
     public void informeConTodo () {
 
         String informe = cContodo.informe();
@@ -179,6 +268,25 @@ public class ClientTest {
                 "\tFerrari F8 Tributo: 900.0€\n" +
                 "Import a pagar: 1260.0€\n" +
                 "Punts guanyats: 4\n";
+
+        Assert.assertEquals(informeEsperado, informe);
+
+    }
+    @Test
+    public void informeConTodoHTML () {
+
+        String informe = cContodo.informeHTML();
+
+        String informeEsperado = "<h1>Informe de lloguers</h1>\n"+
+                "<p>Informe de lloguers del client<em> Maite</em>(<strong>46967587G</strong>)</p>\n"+
+                "<table>\n"+
+                "<tr><td><strong>Marca</strong></td><td><strong>Model</strong></td><td><strong>Import</strong></td></tr>\n"+
+                "\t<tr><td>Renault</td><td> Clio</td><td>90.0€ </td></tr>\n"+
+                "\t<tr><td>Audi</td><td> A3</td><td>270.0€ </td></tr>\n"+
+                "\t<tr><td>Ferrari</td><td> F8 Tributo</td><td>900.0€ </td></tr>\n"+
+                "</table>\n"+
+                "<p>Import a pagar: <em>1260.0€</em></p>\n"+
+                "<p>Punts guanyats: <em>4</em></p>\n";
 
         Assert.assertEquals(informeEsperado, informe);
 
