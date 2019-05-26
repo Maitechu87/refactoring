@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3bd0df9-8fe5-40a1-b7e0-1c18e51c3d42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alquileres.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Alquileres.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alquileres/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Alquileres/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alquileres/GestorLloguersLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Alquileres/GestorLloguersLite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alquileres/Lloguer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Alquileres/Lloguer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alquileres/Vehicle$Tipus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Alquileres/Vehicle$Tipus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alquileres/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Alquileres/Vehicle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestorLloguersLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorLloguersLite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lloguer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lloguer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="-132">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -42,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+            <state relative-caret-position="207">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testInforme#0;class#ClientTest#0" />
@@ -243,9 +232,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientTest - 2019.05.26 at 16h 47m 16s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClientTest - 2019.05.26 at 16h 51m 55s.xml">
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
@@ -273,6 +259,9 @@
     <history-entry file="ClientTest - 2019.05.26 at 17h 06m 01s.xml">
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 17h 19m 41s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,20 +276,20 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8100264" visible="true" weight="0.17717478" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82510287" visible="true" weight="0.17717478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.18997361" side_tool="true" visible="true" weight="0.17717478" />
+      <window_info id="Favorites" order="4" sideWeight="0.17489712" side_tool="true" visible="true" weight="0.17717478" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38273615" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20846905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3534202" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40228012" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.048859935" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32736155" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -401,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="207">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testInforme#0;class#ClientTest#0" />
@@ -420,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="-132">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
         </state>
       </provider>
     </entry>
