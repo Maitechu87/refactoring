@@ -6,6 +6,10 @@ public class Lloguer {
     private Vehicle vehicle;
     private static final int DIAS_INCIALES_MISMO_COSTE_BASIC = 3;
     private static final int DIAS_INCIALES_MISMO_COSTE_GENERAL = 2;
+    private static final double PRECIO_BASIC = 1.5;
+    private static final double PRECIO_GENERAL = 2.5;
+    private static final double PRECIO_LUXE = 6;
+
 
     public Lloguer(Date data, int dies){
         this.data = data;
@@ -32,26 +36,26 @@ public class Lloguer {
         }
 
     }
-    public double quantitat(){
-        double quantitat = 0;
+    public double preu(){
+        double preu = 0;
         switch (getVehicle().getCategoria()) {
             case BASIC:
-                quantitat += 3;
+                preu += 3;
                 if (getDies() > DIAS_INCIALES_MISMO_COSTE_BASIC) {
-                    quantitat += (getDies() - DIAS_INCIALES_MISMO_COSTE_BASIC) * 1.5;
+                    preu += (getDies() - DIAS_INCIALES_MISMO_COSTE_BASIC) * PRECIO_BASIC;
                 }
                 break;
             case GENERAL:
-                quantitat += 4;
+                preu += 4;
                 if (getDies() > DIAS_INCIALES_MISMO_COSTE_GENERAL) {
-                    quantitat += (getDies() - DIAS_INCIALES_MISMO_COSTE_GENERAL) * 2.5;
+                    preu += (getDies() - DIAS_INCIALES_MISMO_COSTE_GENERAL) * PRECIO_GENERAL;
                 }
                 break;
             case LUXE:
-                quantitat += getDies() * 6;
+                preu += getDies() * PRECIO_LUXE;
                 break;
         }
-        return quantitat;
+        return preu;
     }
 
     public int bonificacions(){
