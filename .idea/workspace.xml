@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3bd0df9-8fe5-40a1-b7e0-1c18e51c3d42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lloguer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lloguer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="234">
+              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -33,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="211">
               <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lloguer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
+            <state relative-caret-position="38">
               <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
@@ -234,12 +232,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientTest - 2019.05.26 at 17h 01m 37s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest - 2019.05.26 at 17h 02m 11s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClientTest - 2019.05.26 at 17h 05m 47s.xml">
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
@@ -264,6 +256,12 @@
     <history-entry file="ClientTest - 2019.05.26 at 17h 49m 33s.xml">
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 18h 04m 03s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 18h 14m 09s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,20 +276,20 @@
     <frame x="504" y="36" width="862" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8236659" visible="true" weight="0.2720588" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8238994" visible="true" weight="0.2720588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.17633411" side_tool="true" visible="true" weight="0.2720588" />
+      <window_info id="Favorites" order="4" sideWeight="0.17610063" side_tool="true" visible="true" weight="0.2720588" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27563027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19831933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3534202" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39739415" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3529412" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3843648" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32736155" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -385,7 +383,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="211">
           <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -404,15 +402,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lloguer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
+        <state relative-caret-position="38">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="234">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
         </state>
       </provider>
     </entry>
