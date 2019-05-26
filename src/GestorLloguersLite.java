@@ -10,12 +10,18 @@ public class GestorLloguersLite {
         informacio=("Client: "+"\nDNI del client: "+client.getNif()+"\nNom: "+client.getNom()+ "\nTelèfon: "+
                 client.getTelefon()+"\nLlogers: "+"\nNum de lloguers del client: "+client.getLloguers().size());//Arraylist
 
+        System.out.println(informacio);
 
         for(int i = 0; i<client.getLloguers().size(); i++){
-            System.out.println("\nVehicle: ");
+            String marca = client.getLloguers().get(i).getVehicle().getMarca();
+            String model = client.getLloguers().get(i).getVehicle().getModel();
+            String data = dataToString(client.getLloguers().get(i).getData());
+            int dies = client.getLloguers().get(i).getDies();
+
+            System.out.println("\nVehicle: \nMarca: " + marca+"\nmodel: "+model+"\n"+data+"\ndies: "+dies);
         }
 
-        System.out.println(informacio);
+
     }
 
 
@@ -59,6 +65,19 @@ public class GestorLloguersLite {
             e.printStackTrace();
         }
         return fecha;
+    }
+
+    private static String dataToString(Date data){
+        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+        String fechaS = null;
+        try{
+            fechaS = formatter.format(new Date());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return fechaS;
+
+
     }
 
 
