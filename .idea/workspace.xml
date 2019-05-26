@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+            <state relative-caret-position="-107">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -31,7 +31,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="995">
+            <state relative-caret-position="291">
               <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,11 +39,13 @@
                 <element signature="method#testInformeSenseL#0;class#ClientTest#0" />
                 <element signature="method#testILloguerBasic#0;class#ClientTest#0" />
                 <element signature="method#testInformeLuxe#0;class#ClientTest#0" />
+                <element signature="method#testConTodo#0;class#ClientTest#0" />
                 <element signature="method#informe#0;class#ClientTest#0" />
                 <element signature="method#informeSinAlquiler#0;class#ClientTest#0" />
                 <element signature="method#informeLloguerBasic#0;class#ClientTest#0" />
                 <element signature="method#informeLloguerLuxe#0;class#ClientTest#0" />
                 <element signature="method#informeLloguerLuxe#1;class#ClientTest#0" />
+                <element signature="method#informeMuchosAlqu#1;class#ClientTest#0" />
               </folding>
             </state>
           </provider>
@@ -52,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lloguer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="643">
               <caret line="57" column="28" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="28" />
             </state>
           </provider>
@@ -103,10 +105,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="504" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="503" />
     <option name="y" value="36" />
-    <option name="width" value="862" />
+    <option name="width" value="863" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -232,21 +234,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientTest - 2019.05.26 at 17h 06m 01s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest - 2019.05.26 at 17h 19m 41s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest - 2019.05.26 at 17h 27m 30s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest - 2019.05.26 at 17h 34m 35s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest - 2019.05.26 at 17h 44m 54s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClientTest - 2019.05.26 at 17h 46m 06s.xml">
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
@@ -262,6 +249,21 @@
     <history-entry file="ClientTest - 2019.05.26 at 18h 20m 33s.xml">
       <configuration name="ClientTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 18h 24m 54s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 18h 25m 08s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 18h 47m 36s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 18h 54m 26s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.26 at 18h 54m 58s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,23 +275,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="504" y="36" width="862" height="724" extended-state="0" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8038147" visible="true" weight="0.2720588" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8251748" visible="true" weight="0.17717478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.19618529" side_tool="true" visible="true" weight="0.2720588" />
+      <window_info id="Favorites" order="4" sideWeight="0.17482518" side_tool="true" visible="true" weight="0.17717478" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31092438" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30130294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3529412" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38319328" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38319328" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32736155" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -364,13 +366,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GestorLloguersLite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -381,23 +376,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lloguer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="643">
           <caret line="57" column="28" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        <state relative-caret-position="-107">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="995">
+        <state relative-caret-position="291">
           <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -405,11 +407,13 @@
             <element signature="method#testInformeSenseL#0;class#ClientTest#0" />
             <element signature="method#testILloguerBasic#0;class#ClientTest#0" />
             <element signature="method#testInformeLuxe#0;class#ClientTest#0" />
+            <element signature="method#testConTodo#0;class#ClientTest#0" />
             <element signature="method#informe#0;class#ClientTest#0" />
             <element signature="method#informeSinAlquiler#0;class#ClientTest#0" />
             <element signature="method#informeLloguerBasic#0;class#ClientTest#0" />
             <element signature="method#informeLloguerLuxe#0;class#ClientTest#0" />
             <element signature="method#informeLloguerLuxe#1;class#ClientTest#0" />
+            <element signature="method#informeMuchosAlqu#1;class#ClientTest#0" />
           </folding>
         </state>
       </provider>
