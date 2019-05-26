@@ -45,7 +45,7 @@ public class Client {
                 getNom() +
                 " (" + getNif() + ")\n";
         for (Lloguer lloguer: lloguers) {
-            bonificacions += bonificacionsDeLloguer(lloguer);
+            bonificacions += lloguer.bonificacions();
             // composa els resultats d'aquest lloguer
             resultat += "\t" +
                     lloguer.getVehicle().getMarca() +
@@ -61,13 +61,6 @@ public class Client {
         return resultat;
     }
 
-    public int bonificacionsDeLloguer(Lloguer lloguer){
-        if (lloguer.getVehicle().getCategoria() == Vehicle.LUXE &&
-                lloguer.getDies()>1 ) {
-            return 2;
-        } else {
-            return 1;
-        }
-    }
+
 
 }
