@@ -7,7 +7,7 @@ public class Vehicle {
     public static Tipus GENERAL = Tipus.GENERAL;
     public static Tipus LUXE = Tipus.LUXE;
 
-    private enum Tipus{ BASIC, GENERAL, LUXE}
+    public enum Tipus{ BASIC, GENERAL, LUXE}
 
 
     public Vehicle(String model, String marca, Tipus categor){

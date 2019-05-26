@@ -56,7 +56,7 @@ public class GestorLloguersLite {
         dadesClient(client1);
     }
 
-    private static Date crearData(String data, String formatData) {
+    protected static Date crearData(String data, String formatData) {
         SimpleDateFormat dateFormat = new SimpleDateFormat(formatData);
         Date fecha = null;
         try{

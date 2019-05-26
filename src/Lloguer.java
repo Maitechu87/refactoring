@@ -19,6 +19,7 @@ public class Lloguer {
     public Vehicle getVehicle(){ return vehicle;}
     public void setVehicle(Vehicle vehicle){this.vehicle=vehicle;}
 
+
     public void llogar(Vehicle vehic){
         setVehicle(vehic);
     }
