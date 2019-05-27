@@ -1,0 +1,5 @@
+Exercici 1. El meu exemple
+Descriu un exemple de canvi de codi teu que es pugui considerar refacció i un altre que no. Pots fer servir codi de qualsevol dels teus exercicis del cicle (especifica la procedència). No oblidis descriure el perquè de la teva classificació basant-te en els conceptes d’aquesta secció.
+Un ejemplo de NO refactoring que haya hecho en código trabajado por mí es por ejemplo cambio de nombre de variables a otro idioma para que esté en el mismo que otras clases hechas por otros compañeros. Durante la escritura del código para mí resultaba más fácil hacerlo en castellano. Éste era un proyecto de programación en el que teníamos que hacer un ajedrez.
+Sí considero refactoring los cambios de nombres de variables al posteriormente creer que ese nombre era más significativo para otra, ayudando así a hacer más fácil de entender el código.
+En el mismo trabajo en equipo, una refactorización fue transformar un trozo de código de un bloque en una función, de esta forma conseguía reaprovechar código.
